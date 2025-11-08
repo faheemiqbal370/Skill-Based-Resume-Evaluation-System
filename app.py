@@ -130,5 +130,6 @@ if uploaded is not None:
         csv = out_df.to_csv(index=False).encode('utf-8')
         st.download_button("Download CSV", data=csv, file_name="skill_match.csv", mime='text/csv')
 
+
 else:
     st.info("Upload a resume PDF to start. You can paste a Job Description on the right.")
