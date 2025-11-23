@@ -132,4 +132,4 @@ if uploaded is not None:
 
 
 else:
-    st.info("Upload a resume PDF to start. You can paste a Job Description on the right.")
+    st.info("Upload a resume PDF to start this Analyzer. You can paste a Job Description on the right.")
